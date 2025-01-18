@@ -201,11 +201,11 @@ for more options.
 You can also use an alternative metadata via the one-shot CLI option:
 
 ```sh
-ghcup --url-source=https://some-url/ghcup-0.0.8.yaml tui
+ghcup --url-source=https://some-url/ghcup-0.0.9.yaml tui
 ```
 
 One main caveat of using URLs is that you might need to check whether there are new versions
-of the file (e.g. `ghcup-0.0.7.yaml` vs `ghcup-0.0.8.yaml`). Although old metadata files
+of the file (e.g. `ghcup-0.0.8.yaml` vs `ghcup-0.0.9.yaml`). Although old metadata files
 are supported for some time, they are not so indefinitely.
 
 ### Mirrors
@@ -215,7 +215,7 @@ a URL instead of the `GHCupURL` alias. E.g. in `~/.ghcup/config.yaml`, you'd do:
 
 ```yml
 url-source:
-  - https://mirror.sjtu.edu.cn/ghcup/yaml/ghcup/data/ghcup-0.0.6.yaml
+  - https://mirror.sjtu.edu.cn/ghcup/yaml/ghcup/data/ghcup-0.0.9.yaml
 ```
 
 Note that later versions of GHCup allow more sophisticated mirror support, see [here](#mirrors-proper).
@@ -241,9 +241,9 @@ Then tell ghcup to use file locations in `~/.ghcup/config.yaml`, e.g.:
 
 ```yaml
 url-source:
-- file:///home/user/git/ghcup-metadata/ghcup-0.0.8.yaml
-- file:///home/user/git/ghcup-metadata/ghcup-cross-0.0.8.yaml
-- file:///home/user/git/ghcup-metadata/ghcup-prereleases-0.0.8.yaml
+- file:///home/user/git/ghcup-metadata/ghcup-0.0.9.yaml
+- file:///home/user/git/ghcup-metadata/ghcup-cross-0.0.9.yaml
+- file:///home/user/git/ghcup-metadata/ghcup-prereleases-0.0.9.yaml
 ```
 
 Now, if you invoke `ghcup tui`, it will open instantly without any download, since it just
@@ -374,8 +374,8 @@ As an example, this would be a complete mirror configuration in `~/.ghcup/config
 ```yaml
 mirrors:
   # yaml download location, would result in:
-  #      https://raw.githubusercontent.com/haskell/ghcup-metadata/develop/ghcup-0.0.8.yaml
-  #   -> https://mirror.sjtu.edu.cn/ghcup/yaml/haskell/ghcup-metadata/master/ghcup-0.0.8.yaml
+  #      https://raw.githubusercontent.com/haskell/ghcup-metadata/develop/ghcup-0.0.9.yaml
+  #   -> https://mirror.sjtu.edu.cn/ghcup/yaml/haskell/ghcup-metadata/master/ghcup-0.0.9.yaml
   "raw.githubusercontent.com":
     authority:
       host: "mirror.sjtu.edu.cn"
