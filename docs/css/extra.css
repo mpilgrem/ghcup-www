@@ -339,3 +339,9 @@ ul > li {
   margin-top: 10px;
 }
 
+@font-face {
+    font-family: "DejaVu Sans Mono";
+    src:    local(DejaVu Sans Mono Nerd Font Complete Mono),
+            url("/fonts/DejaVu Sans Mono Nerd Font Complete Mono.ttf") format("truetype");
+    font-stretch: normal;
+}

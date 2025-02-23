@@ -113,7 +113,9 @@ function copyToClipboardWin() {
 }
 
 function start_asciinema_player() {
-  AsciinemaPlayer.create('/ghcup/asciinema-tui-main-demo.cast', document.getElementById('asciinema-tui-main-demo'), { autoPlay: true, idleTimeLimit: 2, loop: 3 });
+	document.fonts.load("1em DejaVu Sans Mono").then(() => {
+	  AsciinemaPlayer.create('/ghcup/asciinema-tui-main-demo.cast', document.getElementById('asciinema-tui-main-demo'), { autoPlay: true, idleTimeLimit: 2, loop: 3, terminalFontFamily: "'DejaVu Sans Mono', monospace" });
+    });
 }
 
 (function () {
