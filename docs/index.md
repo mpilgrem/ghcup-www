@@ -9,7 +9,14 @@ hide:
   <h1>GHCup</h1>
 </section>
 
-<p class="ghcup-intro">GHCup is the main installer for the general purpose language <a href="https://www.haskell.org">Haskell</a>.</p>
+<style type="text/css">
+ p.bold-red {
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+}
+</style>
+<p class="bold-red">NOTE: GHCup is discontinued. Please use Nix. Also see the <a href="https://hasufell.github.io/posts/2025-04-01-use-nix.html">following blog post</a>.</p>
 
 <div class="text-center main-buttons">
 <a href="install/" class="btn btn-primary" role="button">Installation</a>
