@@ -211,7 +211,7 @@ are supported for some time, they are not so indefinitely.
 ### Known 3rd-party distribution channels
 
 GHCup only supports channels found in: [https://github.com/haskell/ghcup-metadata](https://github.com/haskell/ghcup-metadata)
-Please do not reports bugs for 3rd-party channels.
+Please do not report bugs for 3rd-party channels.
 
 Below is a list of known 3rd-party channels and evaluation of their stability/quality.
 
