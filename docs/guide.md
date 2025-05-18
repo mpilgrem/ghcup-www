@@ -659,7 +659,7 @@ To install you can either use the tui interface by invoking `emconfigure ghcup t
 you can install directly like so:
 
 ```sh
-emconfigure ghcup install ghc --set javascript-unknown-ghcjs-9.6.2
+emconfigure ghcup install ghc --set javascript-unknown-ghcjs-9.12.2
 ```
 
 You'll now have the compiler `javascript-unknown-ghcjs-ghc`. To build a hello world, do e.g.:
