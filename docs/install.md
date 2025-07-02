@@ -40,15 +40,19 @@ Also see [tags and shortcuts](guide.md#tags-and-shortcuts) for more information.
 
 #### Generic
 
-The following distro packages are required: `build-essential curl libffi-dev libffi6 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5`
+The following distro packages are required: `build-essential curl libffi-dev libffi8 libgmp-dev libgmp10 libncurses-dev libncurses6 libtinfo6 pkg-config`
 
-#### Version >= 11 && <= 12
+#### Version >= 11 && < 12
 
-The following distro packages are required: `build-essential curl libffi-dev libffi7 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5`
+The following distro packages are required: `build-essential curl libffi-dev libffi7 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5 pkg-config`
 
-#### Version >= 12
+#### Version >= 12 && < 13
 
-The following distro packages are required: `build-essential curl libffi-dev libffi8 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5`
+The following distro packages are required: `build-essential curl libffi-dev libffi8 libgmp-dev libgmp10 libncurses-dev libncurses5 libtinfo5 pkg-config`
+
+#### Version >= 13
+
+The following distro packages are required: `build-essential curl libffi-dev libffi8 libgmp-dev libgmp10 libncurses-dev libncurses6 libtinfo6 pkg-config`
 
 ### Linux Ubuntu
 
